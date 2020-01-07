@@ -47,11 +47,62 @@
         "That corner became my place.",
         "I even set a blanket on the ground.",
         "When my brother was born he wanted my base.",
-        "I did not want him around my playground. "
+        "I did not want him around my playground."
       ]
     },
     {
-      "id": 2,
+      "id": 3,
+      "title": "Free-verse",
+      "content": [
+        "Clean Up Before Lunch",
+        "I slowly put my things in the proper place.",
+        "The crayons are all in the box.",
+        "I tell them they will soon see my face.",
+        "I tighten the cap.",
+        "",
+        "My coloring book is still wide open.",
+        "I look over to the finished page.",
+        "It is full of colors and also a bit of blue pen.",
+        "Maybe my mom will put it on the fridge.",
+        "",
+        "There is a lot of paint on the table.",
+        "Pink, blue, orange and red.",
+        "Why is there paint on the desk?",
+        "I need to get it out before it is too late.",
+        "",
+        "I hear the bell for lunch.",
+        "I still have to put all the clays in their spot.",
+        "I can smell the chicken and fruit punch.",
+        "My stomach grumbles I put all of the colors in one pot."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Saturday Morning Cartoons",
+      "content": [
+        "Half closed eyes, freshly brushed teeth and a bowl of cereal on my lap.",
+        "My cereal has pink, green, blue and a few green marshmallows.",
+        "I try to get all the pink ones together while I separate all the others with a tap.",
+        "I stare down at my bowl it looks like a never ending circle.",
+        "",
+        "My white pillow cradles my tiny and short back.",
+        "A thick heavy yellow blanket covers my chubby legs.",
+        "While my dad sits on the sofa trying to understand the remote.",
+        "He figures it out after a few minutes with the different sized tool.",
+        "",
+        "The screen shows a cat and a mouse that will do anything to get back at each other.",
+        "My dad gets up to get himself some well deserved breakfast.",
+        "I hear a noise in the distance, oh no we have waken up my mother!",
+        "I look at her then I look away, I admit that I feel a bit embarrassed.",
+        "",
+        "My dad comes back with fresh eggs and a loaf of white bread with butter.",
+        "My mom walks out of the kitchen with some already made coffee and a slice of brown bread.",
+        "I block their voices and continue to watch the new cartoons that have appeared on the screen in front of me.",
+        "My mother sits on my left side while my dad sits on my right side, it kind of feels like this morning is a nice day with a friend."
+      ]
+    },
+    {
+      "id": 5,
       "title": "The Train",
       "content": [
         "There is a heavy smell of swampy dirt in the air.",
@@ -68,7 +119,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 6,
       "title": "The Notebook",
       "content": [
         "I remember receiving my first notebook.",
