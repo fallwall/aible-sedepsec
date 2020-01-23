@@ -2,17 +2,18 @@
   display: flex;
   width: 90%;
   margin: 5%;
+  margin-top: -5%;
   height: auto;
 }
 
 .about-left {
   height: 100%;
-  width: 40%;
+  width: 10%;
 }
 
 .about-right {
   height: 100%;
-  width: 60%;
+  width: 80%;
 }
 
 .about-content {
