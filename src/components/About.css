@@ -4,6 +4,7 @@
   margin: 5%;
   /* margin-top: -5%; */
   height: auto;
+  min-height: 30vh;
 }
 
 .about-left {
