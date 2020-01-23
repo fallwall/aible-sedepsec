@@ -23,14 +23,14 @@ export default class Menu extends Component {
       this.setState({
         selected: null,
         isSelected: false
-        })
+      })
     } else {
       this.setState(prevState => ({
-      selected: id,
-      isSelected: !prevState.isSelected
+        selected: id,
+        isSelected: !prevState.isSelected
       }))
     }
-  
+
   }
 
   render() {
@@ -38,6 +38,7 @@ export default class Menu extends Component {
       <div className="menu-container">
         <div className="menu-left"></div>
         <div className="menu-right">
+          <div className="section-title">Works</div>
           {this.state.entries && this.state.entries.map(e =>
             <div key={e.id} className="menu-item">
               <div className="menu-item-title"
@@ -46,7 +47,7 @@ export default class Menu extends Component {
                 {e.id !== this.state.selected && <i class="angle down icon"></i>}
                 {e.id === this.state.selected && this.state.isSelected && <i class="close icon"></i>}
               </div>
-              
+
               {
                 e.id === this.state.selected && this.state.isSelected &&
                 <div className="menu-item-content">

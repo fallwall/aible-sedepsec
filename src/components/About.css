@@ -1,0 +1,18 @@
+.about-container {
+  display: flex;
+  width: 90%;
+  margin: 5%;
+  height: auto;
+  /* min-height: 70vh; */
+}
+
+.about-left {
+  height: 100%;
+  width: 40%;
+}
+
+.about-right {
+  height: 100%;
+  width: 60%;
+}
+
