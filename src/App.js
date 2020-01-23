@@ -27,9 +27,9 @@ class App extends Component {
           onClick={this.changeView}
         />
         <div className="page-hero"><Hero /></div>
-        <div className="page-about"><About /></div>
-        <div className="page-content"><Menu /></div>
-        <div className="page-contact"><Contact /></div>
+        <div id="about" className="page-about"><About /></div>
+        <div id="work" className="page-content"><Menu /></div>
+        <div id="contact" className="page-contact"><Contact /></div>
         <div className="page-footer"><Footer /></div>
       </>
     );

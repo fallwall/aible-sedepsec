@@ -21,7 +21,7 @@
 }
 
 .contacy-item {
-  margin-left: 5%;
+  margin: 5%;
   display: flex;
   justify-content: flex-start;
   vertical-align: middle;
