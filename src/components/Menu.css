@@ -12,7 +12,16 @@
 }
 
 .menu-right {
-  background-color: yellow;
+  background-color: lightskyblue;
   height: 100%;
   width: 60%;
+}
+
+.menu-item {
+  margin: 5%;
+}
+
+.menu-item-content {
+  text-indent: 10%;
+  line-height: 1.6;
 }
