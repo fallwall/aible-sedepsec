@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
 import Menu from './components/Menu';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -28,6 +29,7 @@ class App extends Component {
         <div className="page-hero"><Hero /></div>
         <div className="page-about"><About /></div>
         <div className="page-content"><Menu /></div>
+        <div className="page-contact"><Contact /></div>
         <div className="page-footer"><Footer /></div>
       </>
     );

@@ -1,21 +1,21 @@
-.about-container {
+.contact-container {
   display: flex;
   width: 90%;
   margin: 5%;
   height: auto;
 }
 
-.about-left {
+.contact-left {
   height: 100%;
   width: 40%;
 }
 
-.about-right {
+.contact-right {
   height: 100%;
   width: 60%;
 }
 
-.about-content {
+.contact-content {
   font-size: 1.7em;
   text-indent: 5%;
 }

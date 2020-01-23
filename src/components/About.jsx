@@ -4,11 +4,13 @@ import './About.css';
 export default function About() {
   return (
     <div className="about-container">
-    <div className="about-left"></div>
-    <div className="about-right">
-      <div className="section-title">About</div>
-      <p>about personal stuff.</p>
+      <div className="about-left"></div>
+      <div className="about-right">
+        <div className="section-title">About</div>
+        <div className="about-content">
+          <p>Elbia is a New York City based writer.</p>
+        </div>
+      </div>
     </div>
-  </div>
   )
 }
