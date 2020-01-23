@@ -19,10 +19,18 @@ export default class Menu extends Component {
   }
 
   selectItem = (id) => {
-    this.setState(prevState => ({
+    if (id === this.state.selected) {
+      this.setState({
+        selected: null,
+        isSelected: false
+        })
+    } else {
+      this.setState(prevState => ({
       selected: id,
       isSelected: !prevState.isSelected
-    }))
+      }))
+    }
+  
   }
 
   render() {
@@ -35,7 +43,10 @@ export default class Menu extends Component {
               <div className="menu-item-title"
                 onClick={() => this.selectItem(e.id)}>
                 {e.title}
+                {e.id !== this.state.selected && <i class="angle down icon"></i>}
+                {e.id === this.state.selected && this.state.isSelected && <i class="close icon"></i>}
               </div>
+              
               {
                 e.id === this.state.selected && this.state.isSelected &&
                 <div className="menu-item-content">
