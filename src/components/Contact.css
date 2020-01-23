@@ -19,3 +19,10 @@
   font-size: 1.7em;
   text-indent: 5%;
 }
+
+.contacy-item {
+  margin-left: 5%;
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: middle;
+}
