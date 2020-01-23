@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
+import Menu from './components/Menu';
 import './App.css';
 
 class App extends Component {
@@ -23,7 +24,7 @@ class App extends Component {
           onClick={this.changeView}
         />
         <div className="page-hero"><Hero /></div>
-        <div className="page-content"></div>
+        <div className="page-content"><Menu /></div>
         <div className="page-footer"></div>
       </>
     );
