@@ -7,7 +7,8 @@ export default class Menu extends Component {
     super();
     this.state = {
       entries: null,
-      slected: null
+      slected: null,
+      isSelected: false
     }
   }
 
@@ -18,9 +19,10 @@ export default class Menu extends Component {
   }
 
   selectItem = (id) => {
-    this.setState ({
-      selected: id
-    })
+    this.setState (prevState=>({
+      selected: id,
+      isSelected: !prevState.isSelected
+    }))
   }
 
   render() {
@@ -35,7 +37,7 @@ export default class Menu extends Component {
                 {e.title}
               </div>
               {
-                e.id === this.state.selected &&
+                e.id === this.state.selected && this.state.isSelected &&
                 <div className="menu-item-content">
                   {e.content}
                 </div>
