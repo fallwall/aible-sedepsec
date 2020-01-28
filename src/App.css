@@ -17,6 +17,9 @@ a:hover {
 .section-title {
   font-size: 3em;
   margin-bottom: 10%;
+  background-color: rgba(161,195,209, 0.7);
+  line-height: 2em;
+  text-indent: 1em;
 }
 
 .section-title-white {
